@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="pt-br">
+        <title> Roupas, Mistura Feminina</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="menu">
+                <nav class="navbar navbar-light bg-light">
+                    <a class="nav-item nav-link active" a href="/index">
+                    <img width="150px" src="Logo da Loja.jpg" all= "Mistura Feminina"></a>
+                    <a class="navbar-nav navbar-link active" href="/roupas">Roupas</a>
+                    <a class="navbar-nav navbar-link" a href="/endereco">Endereço</a> 
+                    <a class="navbar-nav navbar-link" a href="/faleconosco">Fale Conosco</a>         
+                </nav>
+            </nav>
+        </div>
+        <header>
+            <h1 class="text-info">Roupas</h1>
+        </header>
+        <hr>
+
+        <section class="categorias">
+            <h2 style="color: purple;">Categorias</h2>
+            <ol>
+                <li>Shorts (2)</li>
+                <li>Vestidos (2)</li>
+                <li>T-short (1)</li>
+                <li>Bermudas(1)</li>
+                <li>Calça Jeans(2)</li>
+            </ol>
+        </section>
+
+        
+            <% produto.forEach(function(produto){ %>
+                <tr>
+                    <td><%= produto.idproduto %></td>
+                    <td><%= produto.nome %></td>
+                    <td><%= produto.descricao %></td>
+                    <td><%= produto.preço %></td>
+                    <td><%= produto.preçofinal %></td>
+                </tr>
+            <% }); %> 
+            
+        
+
+        <br><br><br><br>
+        <br><br><br><br> 
+              
+        <footer id="rodape" style="text-align: center;">  
+            <p id="formadepagamento"><b> Formas de Pagamento</b></p>
+            <p>&copy; Recode Pro 2021 </p> 
+        </footer>
+    </body>
+</html>    

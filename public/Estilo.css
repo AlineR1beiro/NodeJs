@@ -1,0 +1,48 @@
+h1
+{
+color: purple;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+h2,
+h3{
+    text-align:center; color: purple;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p,
+.categorias
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td{
+    align-items: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.menu a{
+    color: palevioletred; vertical-align: middle; padding: 30px; 
+}
+
+.menu{
+    background-color:white; 
+}
+
+.boxprodutos{
+    text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 30%; float: left; margin: auto;
+}
+
+#formadepagamento{
+    color:purple; text-align: center; font-size: 35px;
+}
+
+#rodape{
+    text-align: center; size: 2;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: super; 
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+}
